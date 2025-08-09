@@ -12,7 +12,7 @@ permissions:
 jobs:
   sync_latest_from_upstream:
     name: Sync latest commits from upstream repo
-    if:false #禁用工作流
+    if: false #禁用工作流
     runs-on: ubuntu-latest
     if: ${{ github.event.repository.fork }}
 
